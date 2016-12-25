@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:flickr="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        flickr:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_view"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_menu"
+        android:orderInCategory="1"
+        flickr:actionViewClass="android.support.v7.widget.SearchView"
+        flickr:showAsAction="always"/>
+
+</menu>
